@@ -10,13 +10,13 @@
 ├── src/\
 │   ├── main.cpp\
 │   ├── volatility/
-│   │   ├── close_to_close.cpp     
-│   │   └── close_to_close.hpp\
+│\    ├── close_to_close.cpp     
+|\    └── close_to_close.hpp\
 ├── include/\
 │   └── volatility/
-│       └── close_to_close.hpp
+│\       └── close_to_close.hpp
 ├── tests/\
-│   ├── test_close_to_close.cpp\
+│\   ├── test_close_to_close.cpp\
 └── CMakeLists.txt
   
      - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
