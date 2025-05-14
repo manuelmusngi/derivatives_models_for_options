@@ -6,16 +6,16 @@
      
 - Project Structure
      
-- close_to_close_volatility/
-├── src/
+- close_to_close_volatility/\
+├── src/\
 │   ├── main.cpp
 │   ├── volatility/
 │   │   ├── close_to_close.cpp
 │   │   └── close_to_close.hpp
-├── include/
+├── include/\
 │   └── volatility/
 │       └── close_to_close.hpp
-├── tests/
+├── tests/\
 │   ├── test_close_to_close.cpp
 └── CMakeLists.txt
   
