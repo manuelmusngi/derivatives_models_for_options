@@ -9,11 +9,11 @@
 - close_to_close_volatility/\
 ├── src/\
 │   ├── main.cpp
-│   ├── volatility/
+│   ├── volatility/\
 │   │   ├── close_to_close.cpp
 │   │   └── close_to_close.hpp
 ├── include/\
-│   └── volatility/
+│   └── volatility/\
 │       └── close_to_close.hpp
 ├── tests/\
 │   ├── test_close_to_close.cpp
