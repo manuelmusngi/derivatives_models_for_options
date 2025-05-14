@@ -1,7 +1,24 @@
 #### C++ derivatives modeling:
 
-- Realized Volatility Estimation Models 
+#### Realized Volatility Estimation Models
+- Close-to-close
      - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
+     
+- Project Structure
+     
+- close_to_close_volatility/
+├── src/
+│   ├── main.cpp
+│   ├── volatility/
+│   │   ├── close_to_close.cpp
+│   │   └── close_to_close.hpp
+├── include/
+│   └── volatility/
+│       └── close_to_close.hpp
+├── tests/
+│   ├── test_close_to_close.cpp
+└── CMakeLists.txt
+  
      - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
      - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
      - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
@@ -15,6 +32,6 @@
      - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
      - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
- 
+       
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
