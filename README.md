@@ -6,13 +6,13 @@
 - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
 #### Option Sensitivities with Black-Scholes Model 
-     - [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
-     - [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
+- [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
+- [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
      
 #### Options Implied Volatility Surface 
-     - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
-     - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
-     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
+- [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
+- [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
+- [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
        
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
