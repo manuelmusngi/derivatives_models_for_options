@@ -1,9 +1,9 @@
 #### Realized Volatility Estimation Models
-     - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp) 
-     - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
-     - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
-     - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
-     - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
+- [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp) 
+- [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
+- [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
+- [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
+- [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
 #### Option Sensitivities with Black-Scholes Model 
      - [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
