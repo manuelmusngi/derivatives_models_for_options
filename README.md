@@ -10,8 +10,8 @@
 ├── src/\
 │   ├── main.cpp\
 │   ├── volatility/
-│\    ├── close_to_close.cpp     
-|\    └── close_to_close.hpp\
+|      ├── close_to_close.cpp     
+|\     └── close_to_close.hpp\
 ├── include/\
 │   └── volatility/
 │\       └── close_to_close.hpp
