@@ -10,7 +10,7 @@
 │   │   └── close_to_close.hpp\
 ├── include/\
 │   └── volatility/\
-│       └── close_to_close.hpp\
+│       └── [close_to_close.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/include/volatility/close_to_close.hpp)\
 ├── tests/\
 │   ├── test_close_to_close.cpp\
 └── CMakeLists.txt
