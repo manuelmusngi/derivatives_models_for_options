@@ -1,6 +1,6 @@
 ### Realized Volatility Estimation Models
 #### Close-to-Close volatility model
-- [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
+- [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)\
 project structure
 - close_to_close_volatility/\
 ├── src/\
