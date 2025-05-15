@@ -33,8 +33,8 @@ The model assigns optimized weights to each component (using k), resulting in an
 - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
 - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
 
-### References
-
+### Model References
+- [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
        
 ### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
