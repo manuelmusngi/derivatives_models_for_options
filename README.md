@@ -1,19 +1,6 @@
 ### Realized Volatility Estimation Models
 #### Close-to-Close volatility model
-The close-to-close volatility model calculates the volatility using the following mathematical relationship:
-
-\[
-\text{Close-to-Close Volatility} = \sigma \cdot \sqrt{\frac{n}{n-1}}
-\]
-
-Where:
-- \(\sigma\) is the standard deviation of the prices.
-- \(n\) is the number of prices in the dataset.
-
-### Description
 The close-to-close volatility model estimates the annualized volatility of an asset based on its daily closing prices. It uses the standard deviation of the prices as a measure of dispersion and adjusts it by a factor of \(\sqrt{\frac{n}{n-1}}\) to account for the bias in sample standard deviation. This adjustment ensures that the volatility measure remains unbiased for small sample sizes.
-
-The model is implemented in the provided C++ code. It includes functions to compute the standard deviation of a vector of prices and to calculate the close-to-close volatility using the formula above. The `main` function demonstrates its usage with a sample dataset of closing prices.
 - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
 
 ###### Close-to-close volatility model project structure
