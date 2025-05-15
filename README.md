@@ -32,6 +32,9 @@ The model assigns optimized weights to each component (using k), resulting in an
 - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
 - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
 - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
+
+### References
+
        
 ### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
