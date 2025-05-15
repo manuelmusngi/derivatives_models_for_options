@@ -17,7 +17,7 @@
   
 #### parkinson volatility model
 - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
-- 
+  
  #### rogers-satchell volatility model 
 - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
   
