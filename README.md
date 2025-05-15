@@ -1,5 +1,18 @@
 ### Realized Volatility Estimation Models
-- [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp) 
+#### Close-to-Close volatility model
+- [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
+- close_to_close_volatility/\
+├── src/\
+│   ├── main.cpp\
+│   ├── volatility/\
+│   │   ├── close_to_close.cpp\
+│   │   └── close_to_close.hpp\
+├── include/\
+│   └── volatility/\
+│       └── close_to_close.hpp\
+├── tests/\
+│   ├── test_close_to_close.cpp\
+└── CMakeLists.txt
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
 - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
 - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
