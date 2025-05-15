@@ -12,9 +12,16 @@
 │       └── [close_to_close.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/include/volatility/close_to_close.hpp)\
 └── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/CMakeLists.txt)
 
+#### garman-klass volatility model
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
+  
+#### parkinson volatility model
 - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
+- 
+ #### rogers-satchell volatility model 
 - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
+  
+#### yang-zhang volatility model
 - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
 ### Option Sensitivities with Black-Scholes Model 
