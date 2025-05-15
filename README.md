@@ -36,6 +36,7 @@ The model assigns optimized weights to each component (using k), resulting in an
 ### Model References
 - [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
 - [The Garman-Klass volatility estimator revisited](https://arxiv.org/abs/0807.3492)
+- [Rough volatility: evidence from range volatility estimators](https://arxiv.org/abs/2312.01426)
        
 ### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
