@@ -33,7 +33,7 @@ The model assigns optimized weights to each component (using k), resulting in an
 - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
 - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
 
-### Model References
+### References
 - [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
 - [The Garman-Klass volatility estimator revisited](https://arxiv.org/abs/0807.3492)
 - [Rough volatility: evidence from range volatility estimators](https://arxiv.org/abs/2312.01426)
