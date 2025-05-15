@@ -4,16 +4,14 @@
 ###### Close-to-close volatility model project structure
   close_to_close_volatility/\
 ├── src/\
-│   ├── main.cpp\
+│   ├── [main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/main.cpp)\
 │   ├── volatility/\
-│   │   ├── close_to_close.cpp\
-│   │   └── close_to_close.hpp\
+│   │   ├── [close_to_close.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/volatility/close_to_close.cpp)\
 ├── include/\
 │   └── volatility/\
 │       └── [close_to_close.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/include/volatility/close_to_close.hpp)\
-├── tests/\
-│   ├── test_close_to_close.cpp\
-└── CMakeLists.txt
+└── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/CMakeLists.txt)
+
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
 - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
 - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
