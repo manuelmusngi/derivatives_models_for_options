@@ -1,10 +1,10 @@
 ### Realized Volatility Estimation Models
-#### Close-to-Close volatility model
+#### Close-to-Close  
 The close-to-close volatility model estimates the annualized volatility of an asset based on its daily closing prices. It uses the standard deviation of the prices as a measure of dispersion and adjusts it by a factor of ![Equation](https://latex.codecogs.com/png.latex?%5Csqrt%7B%5Cfrac%7Bn%7D%7Bn-1%7D%7D) to account for the bias in sample standard deviation. This adjustment ensures that the volatility measure remains unbiased for small sample sizes.
 
 - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
 
-###### Close-to-close volatility model project structure
+###### Close-to-close project structure
   close_to_close_volatility/\
 ├── src/\
 │   ├── [main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/main.cpp)\
@@ -13,19 +13,19 @@ The close-to-close volatility model estimates the annualized volatility of an as
 │       └── [close_to_close.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/include/volatility/close_to_close.hpp)\
 └── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/CMakeLists.txt)
 
-#### garman-klass volatility model
+#### garman-klass  
 The Garman-Klass volatility formula is a widely-used measure of the volatility or risk of a security. It is specifically designed for financial markets where the opening, closing, high, and low prices of a security are available. The formula provides an estimate of the annualized volatility of returns, assuming constant volatility during the trading day
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
   
-#### parkinson volatility model
+#### parkinson  
 The Parkinson volatility model is a range-based estimator that uses only the high and low prices for each period, rather than the closing prices. It assumes that asset prices follow a geometric Brownian motion without drift and that the high and low prices contain more information about volatility than closing prices alone. As a result, it generally provides a more accurate and efficient estimate of volatility, especially when the underlying asset exhibits little drift and there are no overnight price jumps. However, it may underestimate volatility if there are significant jumps or gaps in prices outside the trading session.
 - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/parkinson.cpp)
   
- #### rogers-satchell volatility model
+ #### rogers-satchell 
  The Rogers-Satchell Volatility Model is a volatility estimator designed for financial time series data that can capture the volatility of assets in the presence of trends. Unlike the traditional close-to-close volatility estimator, the Rogers-Satchell model uses high, low, open, and close prices, making it more robust when the underlying asset exhibits a drift (i.e., trending markets).
 - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/rogers-satchell.cpp)
   
-#### yang-zhang volatility model
+#### yang-zhang  
 The Yang-Zhang volatility model estimates historical volatility by combining three components:\
 -Overnight return variance: Captures price change from previous close to current open.\
 -Open-to-close variance: Measures intraday volatility.\
