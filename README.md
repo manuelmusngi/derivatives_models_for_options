@@ -4,15 +4,6 @@ The close-to-close volatility model estimates the annualized volatility of an as
 
 - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
 
-###### Close-to-close project structure
-  close_to_close_volatility/\
-├── src/\
-│   ├── [main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/main.cpp)\
-│   │   ├── [close_to_close.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/volatility/close_to_close.cpp)\
-├── include/\
-│       └── [close_to_close.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/include/volatility/close_to_close.hpp)\
-└── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/CMakeLists.txt)
-
 #### garman-klass  
 The Garman-Klass volatility formula is a widely-used measure of the volatility or risk of a security. It is specifically designed for financial markets where the opening, closing, high, and low prices of a security are available. The formula provides an estimate of the annualized volatility of returns, assuming constant volatility during the trading day
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
