@@ -8,10 +8,8 @@ The close-to-close volatility model estimates the annualized volatility of an as
   close_to_close_volatility/\
 ├── src/\
 │   ├── [main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/main.cpp)\
-│   ├── volatility/\
 │   │   ├── [close_to_close.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/src/volatility/close_to_close.cpp)\
 ├── include/\
-│   └── volatility/\
 │       └── [close_to_close.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/include/volatility/close_to_close.hpp)\
 └── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/CMakeLists.txt)
 
