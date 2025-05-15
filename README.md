@@ -17,7 +17,7 @@ The close-to-close volatility model estimates the annualized volatility of an as
 └── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/CMakeLists.txt)
 
 #### garman-klass volatility model
-Garman-Klass Volatility = sqrt((1/n) * sum_{i=1}^{n} [ 0.5 * (ln(H_i / L_i))^2 - (2 * ln(2) - 1) * (ln(C_i / O_i))^2 ])
+ $ \text{Garman-Klass Volatility} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left[ 0.5 \cdot (\ln(H_i/L_i))^2 - \left(2 \cdot \ln(2) - 1\right) \cdot (\ln(C_i/O_i))^2 \right]} $
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
   
 #### parkinson volatility model
