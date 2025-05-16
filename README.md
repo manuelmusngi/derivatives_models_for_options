@@ -1,4 +1,4 @@
-### Realized Volatility Estimation Models
+#### Realized Volatility Estimation Models
 #### Close-to-Close  
 The close-to-close volatility model estimates the annualized volatility of an asset based on its daily closing prices. It uses the standard deviation of the prices as a measure of dispersion and adjusts it by a factor of ![Equation](https://latex.codecogs.com/png.latex?%5Csqrt%7B%5Cfrac%7Bn%7D%7Bn-1%7D%7D) to account for the bias in sample standard deviation. This adjustment ensures that the volatility measure remains unbiased for small sample sizes. The close-to-close volatility provides a simple way to understand the dispersion of closing prices over a period of time.
 
@@ -24,19 +24,19 @@ The Yang-Zhang volatility model estimates historical volatility by combining thr
 The model assigns optimized weights to each component (using k), resulting in an estimator that is nearly unbiased and more efficient than previous models, especially when there are jumps between closing and opening prices. The Yang-Zhang estimator is widely used in financial analytics and algorithmic trading.
 - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
-### Option Sensitivities with Black-Scholes Model 
+#### Option Sensitivities with Black-Scholes Model 
 - [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
 - [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
      
-### Options Implied Volatility Surface 
+#### Options Implied Volatility Surface 
 - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
 - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
 - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
 
-### References
+#### References
 - [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
 - [The Garman-Klass volatility estimator revisited](https://arxiv.org/abs/0807.3492)
 - [Rough volatility: evidence from range volatility estimators](https://arxiv.org/abs/2312.01426)
        
-### License
+#### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
