@@ -28,11 +28,6 @@ The model assigns optimized weights to each component (using k), resulting in an
 - [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
 - [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
      
-#### Options Implied Volatility Surface 
-- [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
-- [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
-- [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
-
 #### References
 - [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
 - [The Garman-Klass volatility estimator revisited](https://arxiv.org/abs/0807.3492)
