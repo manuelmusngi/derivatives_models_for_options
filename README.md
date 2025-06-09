@@ -28,9 +28,9 @@ The model assigns optimized weights to each component (using k), resulting in an
 
 #### Black-Scholes
 black_scholes_cpp20/\
-├── CMakeLists.txt[CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/CMakeLists.txt )\
-├── bs_model.hpp[bs_model.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/bs_model.hpp)\ 
-├── main.cpp[main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/main.cpp)
+├── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/CMakeLists.txt )\
+├── [bs_model.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/bs_model.hpp)\ 
+├── [main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/main.cpp)
     
 #### References
 - [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
