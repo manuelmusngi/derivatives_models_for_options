@@ -24,6 +24,8 @@ The Yang-Zhang volatility model estimates historical volatility by combining thr
 The model assigns optimized weights to each component (using k), resulting in an estimator that is nearly unbiased and more efficient than previous models, especially when there are jumps between closing and opening prices. The Yang-Zhang estimator is widely used in financial analytics and algorithmic trading.
 - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
+#### Impliede volatility model
+
 #### Black-Scholes 
 - [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
 - [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
