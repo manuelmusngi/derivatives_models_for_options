@@ -26,11 +26,12 @@ The model assigns optimized weights to each component (using k), resulting in an
 
 #### Implied volatility model
 
-#### Black-Scholes 
-- [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
-- [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
-
-     
+#### Black-Scholes
+black_scholes_cpp20/
+├── CMakeLists.txt
+├── bs_model.hpp 
+├── main.cpp
+    
 #### References
 - [Overnight GARCH-Itô Volatility Models](https://arxiv.org/abs/2102.13467)
 - [The Garman-Klass volatility estimator revisited](https://arxiv.org/abs/0807.3492)
