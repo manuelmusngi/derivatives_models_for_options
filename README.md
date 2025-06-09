@@ -29,7 +29,7 @@ The model assigns optimized weights to each component (using k), resulting in an
 #### Black-Scholes
 black_scholes_cpp20/\
 ├── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/CMakeLists.txt )\
-├── [bs_model.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/bs_model.hpp)
+├── [bs_model.hpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/bs_model.hpp)\
 ├── [main.cpp](https://github.com/manuelmusngi/derivatives_models_for_options/blob/main/directory_structure/main.cpp)
     
 #### References
