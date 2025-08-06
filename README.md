@@ -38,6 +38,36 @@ $$
 
 The Garman-Klass volatility formula is a widely-used measure of the volatility or risk of a security. It is specifically designed for financial markets where the opening, closing, high, and low prices of a security are available. The formula provides an estimate of the annualized volatility of returns, assuming constant volatility during the trading day.
 
+Let:
+
+𝑂
+ = opening price
+
+𝐻
+ = high price
+
+𝐿
+ = low price
+
+𝐶
+ = closing price
+
+Define:
+
+ln
+⁡
+(
+𝑥
+)
+ = natural logarithm of 
+𝑥
+
+𝜎
+2
+ = estimated variance of log returns
+
+The daily variance estimate is:
+
 $$
 \sigma^2 = 0.5 \left( \ln\left(\frac{H}{L} \right) \right)^2 - \left(2 \ln(2) - 1 \right) \left( \ln\left( \frac{C}{O} \right) \right)^2
 $$
