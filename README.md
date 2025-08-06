@@ -1,6 +1,32 @@
 #### Realized Volatility Models
 #### Close-to-Close  
 The close-to-close volatility model estimates the annualized volatility of an asset based on its daily closing prices. It uses the standard deviation of the prices as a measure of dispersion and adjusts it by a factor of ![Equation](https://latex.codecogs.com/png.latex?%5Csqrt%7B%5Cfrac%7Bn%7D%7Bn-1%7D%7D) to account for the bias in sample standard deviation. This adjustment ensures that the volatility measure remains unbiased for small sample sizes. The close-to-close volatility provides a simple way to understand the dispersion of closing prices over a period of time.
+
+Let \( P_t \) be the closing price on day \( t \). The log return is:
+
+$$
+r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
+$$
+
+The mean log return over \( N \) days is:
+
+$$
+\bar{r} = \frac{1}{N} \sum_{t=1}^{N} r_t
+$$
+
+Then, the close-to-close realized volatility is:
+
+$$
+\sigma_{\text{realized}} = \sqrt{\frac{1}{N - 1} \sum_{t=1}^{N} \left( r_t - \bar{r} \right)^2}
+$$
+
+To annualize the volatility (assuming 252 trading days per year):
+
+$$
+\sigma_{\text{annual}} = \sigma_{\text{realized}} \times \sqrt{252}
+$$
+
+
 - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
 
 #### garman-klass  
