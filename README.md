@@ -89,8 +89,11 @@ The Yang-Zhang volatility model estimates historical volatility by combining thr
 The model assigns optimized weights to each component (using k), resulting in an estimator that is nearly unbiased and more efficient than previous models, especially when there are jumps between closing and opening prices. The Yang-Zhang estimator is widely used in financial analytics and algorithmic trading.
 
 The Yang-Zhang estimator is:
+\
 $$
+\
 \sigma_{\text{YZ}} = \sqrt{ \sigma_o^2 + k \cdot \sigma_c^2 + (1 - k) \cdot \sigma_{rs}^2 }
+\
 $$
 
 
