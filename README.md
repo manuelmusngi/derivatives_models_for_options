@@ -170,7 +170,7 @@ $$
 k = \frac{0.34}{1.34 + \frac{N + 1}{N - 1}}
 $$
 
-**📊 Variables:**
+** Variables:**
 
 - \( o_i \): Open price on day \( i \)  
 - \( c_i \): Close price on day \( i \)  
