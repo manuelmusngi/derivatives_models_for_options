@@ -2,6 +2,36 @@
 #### Close-to-Close  
 The close-to-close volatility model estimates the annualized volatility of an asset based on its daily closing prices. It uses the standard deviation of the prices as a measure of dispersion and adjusts it by a factor of ![Equation](https://latex.codecogs.com/png.latex?%5Csqrt%7B%5Cfrac%7Bn%7D%7Bn-1%7D%7D) to account for the bias in sample standard deviation. This adjustment ensures that the volatility measure remains unbiased for small sample sizes. The close-to-close volatility provides a simple way to understand the dispersion of closing prices over a period of time.
 
+Let:
+
+𝑂
+ = opening price
+
+𝐻
+ = high price
+
+𝐿
+ = low price
+
+𝐶
+ = closing price
+
+Define:
+
+ln
+⁡
+(
+𝑥
+)
+ = natural logarithm of 
+𝑥
+
+𝜎
+2
+ = estimated variance of log returns
+
+The daily variance estimate is:
+
 Let \( P_t \) be the closing price on day \( t \). The log return is:
 
 $$
