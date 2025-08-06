@@ -83,6 +83,31 @@ $$
 
 The Parkinson volatility model is a range-based estimator that uses only the high and low prices for each period, rather than the closing prices. It assumes that asset prices follow a geometric Brownian motion without drift and that the high and low prices contain more information about volatility than closing prices alone. As a result, it generally provides a more accurate and efficient estimate of volatility, especially when the underlying asset exhibits little drift and there are no overnight price jumps. However, it may underestimate volatility if there are significant jumps or gaps in prices outside the trading session.
 
+Given:
+
+𝐻
+𝑡
+: High price of the asset on day 
+𝑡
+
+𝐿
+𝑡
+: Low price of the asset on day 
+𝑡
+
+𝑛
+: Number of trading days in the sample
+
+𝜎
+: Estimated volatility (standard deviation of log returns)
+
+The formula is:
+
+$$
+\sigma_{\text{Parkinson}} = \sqrt{ \frac{1}{4n \ln(2)} \sum_{t=1}^{n} \left( \ln\left( \frac{H_t}{L_t} \right) \right)^2 }
+$$
+
+
   
  #### rogers-satchell
 
