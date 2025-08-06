@@ -132,7 +132,6 @@ $$
 $$
 
 
-
   
 #### yang-zhang 
 
@@ -144,7 +143,7 @@ The Yang-Zhang volatility model estimates historical volatility by combining thr
 -Rogers-Satchell estimator: Measures volatility using high, low, open, and close prices, which is robust to drift.\
 The model assigns optimized weights to each component (using k), resulting in an estimator that is nearly unbiased and more efficient than previous models, especially when there are jumps between closing and opening prices. The Yang-Zhang estimator is widely used in financial analytics and algorithmic trading.
 
-** Variables:**
+** Let:**
 
 - \( o_i \): Open price on day \( i \)  
 - \( c_i \): Close price on day \( i \)  
@@ -153,38 +152,29 @@ The model assigns optimized weights to each component (using k), resulting in an
 - \( N \): Number of days in the sample period
 
 $$
-\
 \sigma_{\text{YZ}} = \sqrt{ \sigma_o^2 + k \cdot \sigma_c^2 + (1 - k) \cdot \sigma_{rs}^2 }
-\
 $$
 
 **Where:**
 
 - **Overnight return variance**:
-\
+$$
 \sigma_o^2 = \frac{1}{N - 1} \sum_{i=1}^{N} \left( \ln \frac{o_i}{c_{i-1}} \right)^2
-\
 $$
 
 - **Open-to-close return variance**:
 $$
-\
 \sigma_c^2 = \frac{1}{N - 1} \sum_{i=1}^{N} \left( \ln \frac{c_i}{o_i} \right)^2
-\
 $$
 
 - **Rogers-Satchell volatility estimator**:
 $$
-\
 \sigma_{rs}^2 = \frac{1}{N - 1} \sum_{i=1}^{N} \left[ \ln \left( \frac{h_i}{c_i} \right) \cdot \ln \left( \frac{h_i}{o_i} \right) + \ln \left( \frac{l_i}{c_i} \right) \cdot \ln \left( \frac{l_i}{o_i} \right) \right]
-\
 $$
 
 - **Weighting factor**:
 $$
-\
 k = \frac{0.34}{1.34 + \frac{N + 1}{N - 1}}
-\
 $$
 
 
