@@ -163,16 +163,19 @@ $$
 $$
 
 - **Open-to-close return variance**:
+\
 $$
 \sigma_c^2 = \frac{1}{N - 1} \sum_{i=1}^{N} \left( \ln \frac{c_i}{o_i} \right)^2
 $$
 
 - **Rogers-Satchell volatility estimator**:
+\
 $$
 \sigma_{rs}^2 = \frac{1}{N - 1} \sum_{i=1}^{N} \left[ \ln \left( \frac{h_i}{c_i} \right) \cdot \ln \left( \frac{h_i}{o_i} \right) + \ln \left( \frac{l_i}{c_i} \right) \cdot \ln \left( \frac{l_i}{o_i} \right) \right]
 $$
 
 - **Weighting factor**:
+\
 $$
 k = \frac{0.34}{1.34 + \frac{N + 1}{N - 1}}
 $$
