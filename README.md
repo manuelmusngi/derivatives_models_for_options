@@ -83,10 +83,13 @@ $$
 - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
 The Yang-Zhang volatility model estimates historical volatility by combining three components:\
--Overnight return variance:\ 
+
+-Overnight return variance:\
   Captures price change from previous close to current open.\
--Open-to-close variance:\ 
+  
+-Open-to-close variance: 
   Measures intraday volatility.\
+  
 -Rogers-Satchell estimator:\ 
   Measures volatility using high, low, open, and close prices, which is robust to drift.\
 
