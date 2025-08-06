@@ -177,9 +177,6 @@ $$
 k = \frac{0.34}{1.34 + \frac{N + 1}{N - 1}}
 $$
 
-
-
-
 #### Implied Volatility Model
 
 #### Black-Scholes
