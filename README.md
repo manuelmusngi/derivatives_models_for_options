@@ -157,6 +157,7 @@ $$
 **Where:**
 
 - **Overnight return variance**:
+\
 $$
 \sigma_o^2 = \frac{1}{N - 1} \sum_{i=1}^{N} \left( \ln \frac{o_i}{c_{i-1}} \right)^2
 $$
