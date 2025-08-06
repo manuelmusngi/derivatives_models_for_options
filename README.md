@@ -84,7 +84,7 @@ $$
 
 The Yang-Zhang volatility model estimates historical volatility by combining three components:
 
-- Overnight return variance Captures price change from previous close to current open.
+- Overnight return variance - Captures price change from previous close to current open.
 - Open-to-close variance - Measures intraday volatility.
 - Rogers-Satchell estimator - Measures volatility using high, low, open, and close prices, which is robust to drift.
 
