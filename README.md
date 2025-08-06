@@ -1,5 +1,5 @@
 #### Realized Volatility Models
-#### Close-to-Close 
+#### close-to-close 
 
 - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/close-to-close.cpp)
 
