@@ -31,6 +31,17 @@ $$
 
 #### garman-klass  
 The Garman-Klass volatility formula is a widely-used measure of the volatility or risk of a security. It is specifically designed for financial markets where the opening, closing, high, and low prices of a security are available. The formula provides an estimate of the annualized volatility of returns, assuming constant volatility during the trading day.
+
+$$
+\sigma^2 = 0.5 \left( \ln\left(\frac{H}{L} \right) \right)^2 - \left(2 \ln(2) - 1 \right) \left( \ln\left( \frac{C}{O} \right) \right)^2
+$$
+
+$$
+\sigma_{\text{annual}} = \sqrt{N \cdot \sigma^2}
+$$
+
+
+
 - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/garman-klass.cpp)
   
 #### parkinson  
