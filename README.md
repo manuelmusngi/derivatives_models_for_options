@@ -39,33 +39,6 @@ $$
 
 The Garman-Klass volatility formula is a widely-used measure of the volatility or risk of a security. It is specifically designed for financial markets where the opening, closing, high, and low prices of a security are available. The formula provides an estimate of the annualized volatility of returns, assuming constant volatility during the trading day.
 
-Let:
-
-𝑂
- = opening price
-
-𝐻
- = high price
-
-𝐿
- = low price
-
-𝐶
- = closing price
-
-Define:
-
-ln
-⁡
-(
-𝑥
-)
- = natural logarithm of 
-𝑥
-
-𝜎
-2
- = estimated variance of log returns
 
 The daily variance estimate is:
 
@@ -83,24 +56,6 @@ $$
 
 The Parkinson volatility model is a range-based estimator that uses only the high and low prices for each period, rather than the closing prices. It assumes that asset prices follow a geometric Brownian motion without drift and that the high and low prices contain more information about volatility than closing prices alone. As a result, it generally provides a more accurate and efficient estimate of volatility, especially when the underlying asset exhibits little drift and there are no overnight price jumps. However, it may underestimate volatility if there are significant jumps or gaps in prices outside the trading session.
 
-Given:
-
-𝐻
-𝑡
-: High price of the asset on day 
-𝑡
-
-𝐿
-𝑡
-: Low price of the asset on day 
-𝑡
-
-𝑛
-: Number of trading days in the sample
-
-𝜎
-: Estimated volatility (standard deviation of log returns)
-
 The formula is:
 
 $$
@@ -115,15 +70,7 @@ $$
  
  The Rogers-Satchell volatility model is a volatility estimator designed for financial time series data that can capture the volatility of assets in the presence of trends. Unlike the traditional close-to-close volatility estimator, the Rogers-Satchell model uses high, low, open, and close prices, making it more robust when the underlying asset exhibits a drift (i.e., trending markets).
 
- Let the following denote the asset prices at time \( t \):
-
-- \( O_t \): Open price  
-- \( H_t \): High price  
-- \( L_t \): Low price  
-- \( C_t \): Close price  
-
-Then the **Rogers-Satchell volatility** at time \( t \) is given by:
-
+Then the Rogers-Satchell volatility at time \( t \) is given by:
 
 $$
 \sigma^2_{RS,t} = \ln\left(\frac{H_t}{C_t}\right) \cdot \ln\left(\frac{H_t}{O_t}\right) + \ln\left(\frac{L_t}{C_t}\right) \cdot \ln\left(\frac{L_t}{O_t}\right)
