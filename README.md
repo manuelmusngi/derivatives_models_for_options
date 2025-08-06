@@ -126,9 +126,7 @@ Then the **Rogers-Satchell volatility** at time \( t \) is given by:
 
 
 $$
-\
 \sigma^2_{RS,t} = \ln\left(\frac{H_t}{C_t}\right) \cdot \ln\left(\frac{H_t}{O_t}\right) + \ln\left(\frac{L_t}{C_t}\right) \cdot \ln\left(\frac{L_t}{O_t}\right)
-\
 $$
 
 
@@ -154,6 +152,7 @@ The model assigns optimized weights to each component (using k), resulting in an
 $$
 \sigma_{\text{YZ}} = \sqrt{ \sigma_o^2 + k \cdot \sigma_c^2 + (1 - k) \cdot \sigma_{rs}^2 }
 $$
+
 
 **Where:**
 
