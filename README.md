@@ -125,11 +125,11 @@ $$
 Then the **Rogers-Satchell volatility** at time \( t \) is given by:
 
 
-
+$$
 \[
 \sigma^2_{RS,t} = \ln\left(\frac{H_t}{C_t}\right) \cdot \ln\left(\frac{H_t}{O_t}\right) + \ln\left(\frac{L_t}{C_t}\right) \cdot \ln\left(\frac{L_t}{O_t}\right)
 \]
-
+$$
 
 
 
