@@ -56,7 +56,7 @@ $$
 
 The Parkinson volatility model is a range-based estimator that uses only the high and low prices for each period, rather than the closing prices. It assumes that asset prices follow a geometric Brownian motion without drift and that the high and low prices contain more information about volatility than closing prices alone. As a result, it generally provides a more accurate and efficient estimate of volatility, especially when the underlying asset exhibits little drift and there are no overnight price jumps. However, it may underestimate volatility if there are significant jumps or gaps in prices outside the trading session.
 
-The formula is:
+The Parkinson model is:
 
 $$
 \sigma_{\text{Parkinson}} = \sqrt{ \frac{1}{4n \ln(2)} \sum_{t=1}^{n} \left( \ln\left( \frac{H_t}{L_t} \right) \right)^2 }
@@ -88,14 +88,7 @@ The Yang-Zhang volatility model estimates historical volatility by combining thr
 -Rogers-Satchell estimator: Measures volatility using high, low, open, and close prices, which is robust to drift.\
 The model assigns optimized weights to each component (using k), resulting in an estimator that is nearly unbiased and more efficient than previous models, especially when there are jumps between closing and opening prices. The Yang-Zhang estimator is widely used in financial analytics and algorithmic trading.
 
-** Let:**
-
-- \( o_i \): Open price on day \( i \)  
-- \( c_i \): Close price on day \( i \)  
-- \( h_i \): High price on day \( i \)  
-- \( l_i \): Low price on day \( i \)  
-- \( N \): Number of days in the sample period
-
+The Yang-Zhang estimator is:
 $$
 \sigma_{\text{YZ}} = \sqrt{ \sigma_o^2 + k \cdot \sigma_c^2 + (1 - k) \cdot \sigma_{rs}^2 }
 $$
