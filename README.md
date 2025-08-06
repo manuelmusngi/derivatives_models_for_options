@@ -115,6 +115,24 @@ $$
  
  The Rogers-Satchell volatility model is a volatility estimator designed for financial time series data that can capture the volatility of assets in the presence of trends. Unlike the traditional close-to-close volatility estimator, the Rogers-Satchell model uses high, low, open, and close prices, making it more robust when the underlying asset exhibits a drift (i.e., trending markets).
 
+ Let the following denote the asset prices at time \( t \):
+
+- \( O_t \): Open price  
+- \( H_t \): High price  
+- \( L_t \): Low price  
+- \( C_t \): Close price  
+
+Then the **Rogers-Satchell volatility** at time \( t \) is given by:
+
+
+
+\[
+\sigma^2_{RS,t} = \ln\left(\frac{H_t}{C_t}\right) \cdot \ln\left(\frac{H_t}{O_t}\right) + \ln\left(\frac{L_t}{C_t}\right) \cdot \ln\left(\frac{L_t}{O_t}\right)
+\]
+
+
+
+
   
 #### yang-zhang 
 
