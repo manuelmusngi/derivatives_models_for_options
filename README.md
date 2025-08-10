@@ -7,7 +7,7 @@ The close-to-close volatility model estimates the annualized volatility of an as
 
 The daily variance estimate is:
 
-Let \( P_t \) be the closing price on day \( t \). The log return is:
+Let $$ \( P_t \)$$ be the closing price on day $$ \( t \)$$. The log return is:
 
 $$
 r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
